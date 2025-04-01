@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Zhen Chu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Zhen Chu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="contact">
+            <h2>Contact Information</h2>
+            
+            <div class="contact-info">
+                <div class="contact-methods">
+                    <h3>How to Reach Me</h3>
+                    <p>If you're interested in my work or would like to discuss potential collaboration opportunities, please contact me through:</p>
+                    <ul>
+                        <li>Email: zchu@pratt.edu</li>
+                        <li>Phone: (917) 993-3422</li>
+                    </ul>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Leave a Message</h3>
+                    <p>Alternatively, you can leave a message below and I'll get back to you as soon as possible:</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="location">
+                <h3>Location</h3>
+                <p>I currently live in Hell's Kitchen, Midtown Manhattan, New York City.</p>
+                <div class="map-placeholder">
+                    <a href="https://www.google.com/maps" target="_blank">
+                        <img src="map.jpg" alt="Map location" class="map-image">
+                        <p>Click to view on Google Maps</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; Zhen Chu 2025</p>
+    </footer>
+</body>
+</html>
